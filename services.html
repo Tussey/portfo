@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tussey University</title>
+  </head>
+  <body>
+    <header>
+    <a href="index.html"> <div class="logo"><span class="first">Tussey</span><span class="sign"> University</span></div></a>
+      <div class="toggle" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-bar">
+          <ul>
+            <li>
+              <a href="https://facebook.com">
+                <img src="images/facebook.png" target="_blank" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <img src="images/twitter.png" target="_blank" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <img src="images/instagram.png" target="_blank" alt="" />
+              </a>
+            </li>
+          </ul>
+          <a href="mailto:you@email.com" class="email-icon">
+            <img src="images/email.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="title">
+        <h1 data-aos="fade-up">Services that we can help you with</h1>
+        <p data-aos="fade-right" data-aos-delay="1200">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+          iusto molestias accusamus rem nobis est, et laborum harum doloremque
+          nemo non, minima quos totam labore maxime iste alias ut esse? Repellat
+          eaque reiciendis laboriosam corporis fuga vero ratione veritatis
+          numquam, libero magni voluptatum omnis molestiae officiis
+          exercitationem qui quidem nam.
+        </p>
+      </div>
+      <div class="services">
+        <div class="service" data-aos="fade-right" data-aos-delay="1000">
+          <div class="icon">
+            <img src="images/001.png" alt="" />
+          </div>
+          <h2>Design</h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+        </div>
+        <div class="service" data-aos="fade-left" data-aos-delay="1000">
+          <div class="icon">
+            <img src="images/002.png" alt="" />
+          </div>
+          <h2>Development</h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+        </div>
+        <div class="service" data-aos="fade-right" data-aos-delay="1200">
+          <div class="icon">
+            <img src="images/003.png" alt="" />
+          </div>
+          <h2>SEO</h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+        </div>
+        <div class="service" data-aos="fade-left" data-aos-delay="1200">
+          <div class="icon">
+            <img src="images/004.png" alt="" />
+          </div>
+          <h2>Marketing</h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+        </div>
+        <div class="service" data-aos="fade-right" data-aos-delay="1000">
+          <div class="icon">
+            <img src="images/005.png" alt="" />
+          </div>
+          <h2>App Development</h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+        </div>
+        <div class="service" data-aos="fade-left" data-aos-delay="1000">
+          <div class="icon">
+            <img src="images/006.png" alt="" />
+          </div>
+          <h2>Error Fixing</h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+        </div>
+      </div>
+    </section>
+<script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+</script>
+    <script src="js/script.js"></script>
+    <script src="dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 200, // values from 0 to 3000, with step 50ms
+        duration: 1500, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+      });
+    </script>
+  </body>
+</html>
